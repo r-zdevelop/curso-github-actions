@@ -1,3 +1,5 @@
 <?php
 
-echo "Hola mundo desde main.php";
+$username = getenv('USERNAME');
+
+echo "Hola, $username desde main.php";
